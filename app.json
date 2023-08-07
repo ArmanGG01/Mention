@@ -1,10 +1,11 @@
 {
-  "name": "Project-Mention",
-  "description": "Bot Mention pemanggil group telegram.",
-  "repository": "https://github.com/apisuserbot/Project-Mention",
-  "logo": "https://telegra.ph/file/f9edcf0f82516206171d9.jpg",
-  "keywords": ["Project-Mention", "telegram", "python"],
-  "env": {
+    "name": "PyroKar Pyro",
+    "description": "Nothing Speciall !!!.",
+    "logo": "https://telegra.ph//file/75acabea0a9cc6679c2d4.jpg",
+    "keywords": ["telegram", "userbot", "pyrogram"],
+    "repository": "https://github.com/ArmanGG01/PyroKar-Ubot",
+    "stack": "container",
+    "env": {
     "TOKEN": {
       "description": "Token bot dapatkan di @botfather",
       "value": ""
@@ -16,7 +17,16 @@
     "DB_PWD": {
       "description": "Database bot",
       "value": "postgres"
+        }
     },
+    "buildpacks": [
+        {
+          "url": "heroku/python"
+        },
+        {
+          "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ],
     "formation": {
         "worker": {
           "quantity": 1,
@@ -24,4 +34,3 @@
         }
       }
 }
-
