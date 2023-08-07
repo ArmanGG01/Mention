@@ -13,7 +13,7 @@ Perintah :
 ## Deploy Bot Mention
 
 <b>
-<a href="https://heroku.com/deploy?template=https://github.com/apisuserbot/Project-Mention"><img src="https://img.shields.io/badge/Deploy Project-Mention-blue?style=badge&logo=heroku"width="310" height="50"/></a>
+<a href="https://heroku.com/deploy?template=https://github.com/ArmanGG01/Mention"><img src="https://img.shields.io/badge/Deploy Project-Mention-blue?style=badge&logo=heroku"width="310" height="50"/></a>
 </b>
 
 ## Memasang via termux
