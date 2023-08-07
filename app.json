@@ -16,6 +16,12 @@
     "DB_PWD": {
       "description": "Database bot",
       "value": "postgres"
-    }
-  }
+    },
+    "formation": {
+        "worker": {
+          "quantity": 1,
+          "size": "basic"
+        }
+      }
 }
+
